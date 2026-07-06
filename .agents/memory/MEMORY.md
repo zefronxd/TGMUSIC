@@ -1,4 +1,0 @@
-- [Status engine Updater interface](status-updater-interface.md) — Updater interface lets *Status and *td.Message both satisfy handler params; only internal func sigs change, not public handlers.
-- [Status engine race fix](status-race-fix.md) — mu+resolved pattern serializes animation ticks vs resolution edits; stop() alone is insufficient.
-- [Running TgMusicBot on Replit](tgmusicbot-replit-runtime.md) — despite replit.md claiming native libs are unavailable, the bot actually runs fine here; steps to fetch/build/link it.
-- [vc/handlers import cycle](vc-handlers-import-cycle.md) — handlers imports vc, so cross-package callbacks from vc into handlers must go through a package-level func var hook set in handlers' init(), not a direct import.
